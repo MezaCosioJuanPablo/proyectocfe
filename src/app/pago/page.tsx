@@ -1,4 +1,3 @@
-// /app/medios-de-pago/page.tsx
 import Link from "next/link";
 
 export default function MediosDePago() {
@@ -15,8 +14,39 @@ export default function MediosDePago() {
             SELECCIONA EL ESTADO DONDE TE LOCALIZAS
           </label>
           <select className="border mt-2 text-center p-2">
-            <option>Seleccione uno</option>
-            {/* Opciones de estados aquí */}
+            <option value="">Seleccione uno</option>
+            <option value="aguascalientes">Aguascalientes</option>
+            <option value="baja-california">Baja California</option>
+            <option value="baja-california-sur">Baja California Sur</option>
+            <option value="campeche">Campeche</option>
+            <option value="chiapas">Chiapas</option>
+            <option value="chihuahua">Chihuahua</option>
+            <option value="coahuila">Coahuila</option>
+            <option value="colima">Colima</option>
+            <option value="cdmx">Ciudad de México</option>
+            <option value="durango">Durango</option>
+            <option value="guanajuato">Guanajuato</option>
+            <option value="guerrero">Guerrero</option>
+            <option value="hidalgo">Hidalgo</option>
+            <option value="jalisco">Jalisco</option>
+            <option value="edo-mex">Estado de México</option>
+            <option value="michoacan">Michoacán</option>
+            <option value="morelos">Morelos</option>
+            <option value="nayarit">Nayarit</option>
+            <option value="nuevo-leon">Nuevo León</option>
+            <option value="oaxaca">Oaxaca</option>
+            <option value="puebla">Puebla</option>
+            <option value="queretaro">Querétaro</option>
+            <option value="quintana-roo">Quintana Roo</option>
+            <option value="san-luis-potosi">San Luis Potosí</option>
+            <option value="sinaloa">Sinaloa</option>
+            <option value="sonora">Sonora</option>
+            <option value="tabasco">Tabasco</option>
+            <option value="tamaulipas">Tamaulipas</option>
+            <option value="tlaxcala">Tlaxcala</option>
+            <option value="veracruz">Veracruz</option>
+            <option value="yucatan">Yucatán</option>
+            <option value="zacatecas">Zacatecas</option>
           </select>
         </div>
 
@@ -34,16 +64,12 @@ export default function MediosDePago() {
                 <li>Catálogo de trámites y servicios</li>
               </ul>
             </div>
-            {/* Agrega otras secciones si es necesario */}
           </div>
         </section>
 
         <section className="flex justify-center mt-8">
-          {/* Logos de descarga de aplicaciones */}
           <div className="text-center space-y-2">
-            <img src="/path-to-appstore-logo.png" alt="App Store" />
-            <img src="/path-to-googleplay-logo.png" alt="Google Play" />
-            <img src="/path-to-appgallery-logo.png" alt="App Gallery" />
+            <img src="app.png" alt="App Store" />
           </div>
         </section>
       </main>

@@ -40,6 +40,22 @@ function CuentasPage() {
             >
               Medios de pagos
             </button>
+
+            {/* Botón para redirigir a la página de reporte */}
+            <button
+              className="w-full border border-gray-300 p-2"
+              onClick={() => router.push("/reporte")} // Redirección al hacer clic
+            >
+              Avisar falla
+            </button>
+
+            {/* Botón para redirigir a la página de carga múltiples */}
+            <button
+              className="w-full border border-gray-300 p-2"
+              onClick={() => router.push("/carga")} // Redirección al hacer clic
+            >
+              Cargar múltiples
+            </button>
           </aside>
 
           {/* Área principal de contenido */}
