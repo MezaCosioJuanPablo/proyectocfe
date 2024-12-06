@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import LayoutWeb from "../layout/layoutweb";
+import LayoutWeb from "../layout/LayoutWeb";
 
 const MedidorPage = () => {
   const router = useRouter();

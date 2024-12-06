@@ -1,7 +1,7 @@
 // pages/consumo.js
 "use client";
 
-import LayoutWeb from "../layout/layoutweb";
+import LayoutWeb from "../layout/LayoutWeb";
 import Link from "next/link";
 import React from "react";
 import { Bar } from "react-chartjs-2";

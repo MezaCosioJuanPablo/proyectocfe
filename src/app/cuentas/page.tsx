@@ -1,6 +1,6 @@
 "use client";
 
-import LayoutWeb from "../layout/layoutweb";
+import LayoutWeb from "../layout/LayoutWeb";
 import { useRouter } from "next/navigation"; // Importa useRouter
 
 function CuentasPage() {
