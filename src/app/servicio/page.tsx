@@ -1,5 +1,5 @@
 import React from "react";
-import LayoutWeb from "../layout/layoutweb";
+import LayoutWeb from "../layout/LayoutWeb";
 
 const Page = () => {
   return (
