@@ -14,6 +14,7 @@ import {
   Legend,
 } from "chart.js";
 
+// Registrar los componentes necesarios de Chart.js
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -43,7 +44,7 @@ const ConsumoHistorico = () => {
     responsive: true,
     plugins: {
       legend: {
-        position: "bottom", // Valor válido para la posición de la leyenda
+        position: "bottom" as const, // Usar 'as const' para asegurar el tipo correcto
       },
       title: {
         display: true,
