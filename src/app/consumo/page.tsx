@@ -1,4 +1,3 @@
-// pages/consumo.js
 "use client";
 
 import LayoutWeb from "../layout/LayoutWeb";
@@ -44,7 +43,7 @@ const ConsumoHistorico = () => {
     responsive: true,
     plugins: {
       legend: {
-        position: "bottom",
+        position: "bottom", // Valor válido para la posición de la leyenda
       },
       title: {
         display: true,
