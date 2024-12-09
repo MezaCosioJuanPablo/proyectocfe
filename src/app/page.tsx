@@ -13,7 +13,8 @@ export default function Login() {
   const [error, setError] = useState(""); // Estado para errores
   const router = useRouter(); // Instancia de useRouter
 
-  const handleLogin = (e) => {
+  // Tipar el parámetro 'e' como React.FormEvent<HTMLFormElement>
+  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!username || !password) {
       setError("Por favor, ingresa usuario y contraseña.");
